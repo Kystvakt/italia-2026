@@ -1,0 +1,6 @@
+[out:json][timeout:25];
+(
+  nwr[name~"Ignazio|inascente|Risorgimento|Castel.*Angelo"](41.89,12.45,41.912,12.495);
+  nwr[aeroway=aerodrome][iata=FCO];
+);
+out center;

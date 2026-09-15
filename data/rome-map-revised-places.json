@@ -1,0 +1,361 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-13T09:55:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 706793341,
+  "lat": 41.8978235,
+  "lon": 12.4815609,
+  "tags": {
+    "addr:housenumber": "305",
+    "addr:street": "Via del Corso",
+    "description": "Private collection and home with Caravaggio, Velasquez, Tiziano, Raffaello, Lippi, and others Available also for private visits and functions",
+    "fee": "yes",
+    "name": "Palazzo Doria Pamphilj",
+    "name:zh": "多利亚潘菲利美术馆",
+    "opening_hours": "Mo-Th 09:00-19:00; Fr-Su 10:00-20:00",
+    "phone": "+39 06 6797323",
+    "tourism": "museum",
+    "website": "https://www.dopart.it/",
+    "wheelchair": "limited",
+    "wikidata": "Q1203458",
+    "wikimedia_commons": "Category:Galleria Doria Pamphilj (Rome)",
+    "wikipedia": "it:Galleria Doria Pamphilj"
+  }
+},
+{
+  "type": "node",
+  "id": 1439825876,
+  "lat": 41.8978345,
+  "lon": 12.4806468,
+  "tags": {
+    "addr:housenumber": "2",
+    "entrance": "yes",
+    "name": "Galleria Doria Pamphilj"
+  }
+},
+{
+  "type": "node",
+  "id": 4464465298,
+  "lat": 41.8975544,
+  "lon": 12.4804304,
+  "tags": {
+    "addr:postcode": "00186",
+    "addr:street": "Via della Gatta",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/caffedoriaroma/",
+    "contact:phone": "+39 06 679 3805",
+    "name": "Caffè Doria",
+    "website": "https://www.caffedoria.it/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12988250711,
+  "lat": 41.9006190,
+  "lon": 12.4753281,
+  "tags": {
+    "addr:city": "Roma",
+    "addr:housenumber": "35",
+    "addr:postcode": "00186",
+    "addr:street": "Via delle Coppelle",
+    "level": "0",
+    "name": "Fondazione don Luigi Sturzo",
+    "office": "foundation",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 28159849,
+  "center": {
+    "lat": 41.8996281,
+    "lon": 12.4749683
+  },
+  "nodes": [
+    309289768,
+    12804017350,
+    1443767488,
+    665871922,
+    1421867905,
+    8963289464,
+    1421867810,
+    8963289465,
+    1421867786,
+    665820316,
+    1421867772,
+    11673219868,
+    261857792,
+    1443767475,
+    665820363,
+    665811031,
+    1421867801,
+    12647068114,
+    12647068113,
+    665811030,
+    665871923,
+    12647068112,
+    309289768
+  ],
+  "tags": {
+    "area": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza di San Luigi De' Francesi",
+    "official_name": "Piazza di S. Luigi De' Francesi",
+    "place": "square",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 52335646,
+  "center": {
+    "lat": 41.8995718,
+    "lon": 12.4745479
+  },
+  "nodes": [
+    665811030,
+    12647068113,
+    12647068114,
+    1421867801,
+    665811031,
+    665811032,
+    665811033,
+    665811034,
+    665811035,
+    665811036,
+    665811037,
+    3782558391,
+    665811030
+  ],
+  "tags": {
+    "addr:postcode": "00186",
+    "addr:street": "Piazza di San Luigi De' Francesi",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "contact:email": "saintlouis.rome@gmail.com",
+    "contact:phone": "+39 06 68 82 71",
+    "contact:website": "https://saintlouis-rome.net/",
+    "denomination": "catholic",
+    "name": "Chiesa di San Luigi dei Francesi",
+    "name:en": "Church of Saint Louis the French",
+    "name:fr": "Saint-Louis-des-Français",
+    "opening_hours": "Mo-Fr 09:30-12:45,14:30-18:30; Sa 09:30-12:15,14:30-18:30; Su 11:30-12:45,14:30-18:30",
+    "religion": "christian",
+    "service_times": "Mo-Fr 19:00; Sa 12:30; Su 10:30",
+    "wikidata": "Q638283",
+    "wikimedia_commons": "Category:Chiesa di San Luigi dei Francesi (Rome)",
+    "wikipedia": "it:Chiesa di San Luigi dei Francesi"
+  }
+},
+{
+  "type": "way",
+  "id": 52341511,
+  "center": {
+    "lat": 41.8994006,
+    "lon": 12.4750746
+  },
+  "nodes": [
+    665820316,
+    665822944
+  ],
+  "tags": {
+    "highway": "service",
+    "lit": "yes",
+    "motor_vehicle": "private",
+    "name": "Piazza di San Luigi De' Francesi",
+    "official_name": "Piazza di S. Luigi De' Francesi",
+    "service": "alley",
+    "surface": "sett",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 60616319,
+  "center": {
+    "lat": 41.8970231,
+    "lon": 12.4817311
+  },
+  "nodes": [
+    758357675,
+    10920053192,
+    758357817,
+    758357613
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Vicolo Doria",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 131146036,
+  "center": {
+    "lat": 41.8996416,
+    "lon": 12.4749586
+  },
+  "nodes": [
+    665822944,
+    1443767476,
+    1443767488
+  ],
+  "tags": {
+    "highway": "service",
+    "lit": "yes",
+    "motor_vehicle": "private",
+    "name": "Piazza di San Luigi De' Francesi",
+    "official_name": "Piazza di S. Luigi De' Francesi",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 203984760,
+  "center": {
+    "lat": 41.8993966,
+    "lon": 12.4749329
+  },
+  "nodes": [
+    665822944,
+    665820363
+  ],
+  "tags": {
+    "highway": "service",
+    "lit": "yes",
+    "motor_vehicle": "private",
+    "name": "Piazza di San Luigi De' Francesi",
+    "official_name": "Piazza di S. Luigi De' Francesi",
+    "oneway": "yes",
+    "service": "alley",
+    "surface": "sett",
+    "width": "8"
+  }
+},
+{
+  "type": "relation",
+  "id": 1707363,
+  "center": {
+    "lat": 41.8973388,
+    "lon": 12.4810768
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 125566949,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 125567020,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125566999,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567040,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567031,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567013,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567004,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567018,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567027,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567009,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567006,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 125567002,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "yes",
+    "building:levels": "5",
+    "name": "Palazzo Doria Pamphilj",
+    "name:uk": "Палаццо Доріа Памфілі",
+    "roof:shape": "gabled",
+    "tourism": "attraction",
+    "type": "multipolygon",
+    "wikidata": "Q385387",
+    "wikimedia_commons": "Category:Palazzo Doria Pamphilj (Rome)",
+    "wikipedia": "it:Palazzo Doria-Pamphili"
+  }
+},
+{
+  "type": "relation",
+  "id": 1737674,
+  "center": {
+    "lat": 41.8999099,
+    "lon": 12.4746234
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 128740190,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 128740465,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 128740350,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "Palazzo di San Luigi",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

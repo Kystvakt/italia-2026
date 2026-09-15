@@ -1,0 +1,39 @@
+let tripFocus={};
+const TRIP_PANELS={
+  4:[{id:'florence',city:'florence',title:'9월 29일 · 피렌체',bounds:[11.239,43.759,11.273,43.780],meters:500,stops:[['fsmn','1','11:00 도착',-20,-20],['fduomo','2','14:15 내부',28,-22],['calz','3','15:20 상가',-35,5],['signoria','4','16:00 광장',25,-5],['loggia','5','16:00 함께 관람',30,36],['ponte','6','17:15 강변',-30,22],['view','7','18:15 전망',25,20]],note:'두오모 → 상가 → 광장 → 베키오 다리는 도보 구간입니다. 베키오 다리 → 미켈란젤로 광장은 일정대로 택시로 이동합니다.'}],
+  5:[{id:'florence-day2',city:'florence',title:'9월 30일 · 바르젤로·우피치와 피렌체 도심',bounds:[11.241,43.7655,11.265,43.779],meters:250,stops:[['bargello','1','09:00 관람',25,-20],['uffizi','2','11:15 관람',25,30],['pharmacy','3','15:45 본점 방문',25,25],['market','4','17:30 식당가 · 18:15 저녁',25,-25]],note:'바르젤로 → 우피치 → 약국 본점 → 중앙시장 순서입니다. 우피치 관람 후 점심, 중앙시장 도착 후 카페를 거칩니다.'}],
+  6:[{id:'arrival',city:'venice',title:'10월 1일 · 두칼레 궁전·산마르코',bounds:[12.311,45.428,12.349,45.446],meters:500,stops:[['vsmn','1','11:30 도착',20,-30],['ducale','2','15:00 내부 관람',-25,65],['sanmarco','3','17:00 광장·수변',-25,-45]],refs:['rialto','bus'],note:'역 도착 후 숙소에 짐을 맡기고, 대운하 수상버스로 두칼레 궁전과 산마르코 광장에 갑니다.'}],
+  7:[{id:'sights',city:'venice',title:'10월 2일 · 산 로코에서 산마르코까지',bounds:[12.320,45.430,12.347,45.441],meters:250,stops:[['rocco','1','09:30 관람',-20,55],['frari','2','10:50 관람',-20,-50],['rialto','3','12:05 다리·대운하',25,-35],['basilica','4','14:30 통합 관람',-25,45]],note:'산 로코 → 프라리 → 리알토 → 산마르코를 도보로 연결합니다. 점심은 리알토 인근에서 먹습니다.'}],
+  8:[{id:'airport',city:'venice',title:'10월 3일 · 베네치아와 마르코 폴로 공항',bounds:[12.275,45.421,12.402,45.513],meters:2000,stops:[['airport','2','12:00 공항 도착 편성',25,-10]],refs:['sanmarco','bus'],note:'로마 광장은 공항버스 환승 위치입니다. 숙소에서 공항으로 가는 구간은 10:30–12:00으로 편성되어 있습니다. 숙소 위치가 정해지면 출발 지점을 표시합니다.'}]
+};
+const TRIP_EVENT_KEYS={4:{'피렌체 두오모':'fduomo','비아 데이 칼차이우올리':'calz','시뇨리아 광장·로자 데이 란치':'signoria','베키오 다리·아르노강':'ponte','미켈란젤로 광장 전망':'view'},5:{'바르젤로 조각박물관':'bargello','우피치 미술관':'uffizi','산타 마리아 노벨라 약국 본점':'pharmacy','중앙시장 상층 식음 공간':'market','중앙시장에서 저녁':'market'},6:{'두칼레 궁전':'ducale','산마르코 광장·수변':'sanmarco'},7:{'산 로코 대동신회관':'rocco','프라리 성당':'frari','리알토 다리·대운하':'rialto','산마르코 대성당':'basilica'}};
+function tripEventBadges(d,e){
+  const badge=n=>`<span class="event-map-number">${n}</span>`;
+  if(d===7&&e[1].includes('대성당 또는'))return badge('1A')+badge('1B');
+  if(d===4&&e[1]==='시뇨리아 광장·로자 데이 란치')return badge('4')+badge('5');
+  const extra={4:{'로마 → 피렌체 SMN역':'fsmn','산타 마리아 델 피오레 대성당 내부':'fduomo','두오모 광장':'fduomo'},5:{},6:{'피렌체 → 베네치아 산타 루치아':'vsmn','① 역 → 숙소·짐 보관':'vsmn'}};
+  const key=TRIP_EVENT_KEYS[d]?.[e[1]]||extra[d]?.[e[1]],s=TRIP_PANELS[d]?.flatMap(p=>p.stops).find(s=>s[0]===key);
+  return s?badge(s[1]):'';
+}
+function tripEventTitle(d,e){return tripEventBadges(d,e)?e[1].replace(/^[①②]\s*/,''):e[1];}
+function renderTripMap(d){
+  const panels=TRIP_PANELS[d];if(!panels)return '';const panel=panels.find(p=>p.id===tripFocus[d])||panels[0];
+  const m=TRIP_MAP.maps[panel.city],{project,scale,W,H}=romeProjection(panel.bounds),clip='trip-clip-'+d;
+  const polygon=rs=>rs.map(r=>mapPath(r,project)+' Z').join(' ');
+  let drawing=`<defs><clipPath id="${clip}"><rect width="${W}" height="${H}"/></clipPath></defs><rect width="${W}" height="${H}" fill="${panel.city==='venice'&&d!==8?'#bdd7de':'#f7f7f7'}"/><g clip-path="url(#${clip})">`;
+  for(const rs of m.land)drawing+=`<path d="${polygon(rs)}" fill="#f7f7f7" stroke="#a3b8b3" stroke-width="1" fill-rule="evenodd"/>`;
+  for(const r of m.water)drawing+=`<path d="${polygon([r])}" fill="#bdd7de"/>`;
+  for(const r of m.roads)drawing+=`<path d="${mapPath(r.xy,project)}" fill="none" stroke="${r.name==='Via dei Calzaiuoli'?'#c1a371':'#d0d0d0'}" stroke-width="${r.name==='Via dei Calzaiuoli'?6:2.3}" stroke-linejoin="round"/>`;
+  for(const rs of m.buildings)drawing+=`<path d="${polygon(rs)}" fill="#e1e4e8" stroke="#a8adb5" stroke-width="1" fill-rule="evenodd"/>`;
+  drawing+='</g>';
+  const waterLabels=panel.city==='florence'?[['Arno · 아르노강',[11.263,43.7657]]]:panel.id==='pisa'?[['Arno · 아르노강',[10.391,43.7142]]]:d===6?[['Canal Grande · 대운하',[12.328,45.4341]]]:d===7?[['Canal Grande · 대운하',[12.3305,45.4355]]]:[];
+  for(const [name,xy] of waterLabels){const [x,y]=project(xy);drawing+=`<text x="${x}" y="${y}" text-anchor="middle" font-size="13" fill="#436f7b" paint-order="stroke" stroke="#f7f7f7" stroke-width="3">${esc(name)}</text>`;}
+  drawing+=renderMapRoutes(panel.id,TRIP_MAP.places,project,routeObstacles(panel.stops,TRIP_MAP.places,project).concat(waterLabels.map(([name,xy])=>{const [x,y]=project(xy),w=routeTextWidth(name);return [x-w/2,y-16,w,24];})).concat((panel.refs||[]).map(key=>{const p=TRIP_MAP.places[key],[x,y]=project(p.xy),w=routeTextWidth(p.ko,14)+20;return [key==='bus'?x-w:x,y-18,w,38];})));
+  for(const key of panel.refs||[]){const p=TRIP_MAP.places[key],[x,y]=project(p.xy),left=key==='bus';drawing+=`<circle cx="${x}" cy="${y}" r="4" fill="#71897e"/><text x="${x+(left?-10:10)}" y="${y+4}" text-anchor="${left?'end':'start'}" font-size="14" fill="#506e64" paint-order="stroke" stroke="#f7f7f7" stroke-width="4">${esc(p.ko)}</text>`;}
+  for(const [key,n,time,dx,dy] of panel.stops){const p=TRIP_MAP.places[key],[x,y]=project(p.xy),lx=x+dx,ly=y+dy,tx=lx+(dx<0?-21:21),anchor=dx<0?'end':'start';drawing+=`<a href="${mapExternal(p)}" target="_blank" rel="noopener"><title>${esc(p.ko+' · '+time)}</title><path d="M${x},${y} L${lx},${ly}" stroke="#236658" stroke-width="1.2"/><circle cx="${x}" cy="${y}" r="3" fill="#236658"/><circle cx="${lx}" cy="${ly}" r="15" fill="#236658" stroke="white" stroke-width="2"/><text x="${lx}" y="${ly+4}" font-size="12" font-weight="bold" fill="white" text-anchor="middle">${n}</text><text x="${tx}" y="${ly+5}" text-anchor="${anchor}" font-size="16" font-weight="bold" fill="#213d3a" paint-order="stroke" stroke="#f7f7f7" stroke-width="4">${esc(p.ko)}</text></a>`;}
+  const bar=panel.meters*scale;
+  drawing+=`<g transform="translate(35 570)"><rect x="-12" y="-20" width="${bar+38}" height="55" rx="6" fill="white" opacity=".92"/><path d="M0 -5 V5 H${bar} V-5" fill="none" stroke="#304e45" stroke-width="2"/><text x="0" y="25" font-size="12">0</text><text x="${bar}" y="25" text-anchor="end" font-size="12">${panel.meters>=1000?panel.meters/1000+' km':panel.meters+' m'}</text></g><text x="1040" y="45" font-size="16" fill="#304e45">↑ N</text>`;
+  const toggles=panels.length>1?`<div class="map-toggle">${panels.map((p,i)=>`<button type="button" data-trip-focus="${p.id}" aria-pressed="${p.id===panel.id}">${['피사 전체','광장 확대','피렌체 복귀'][i]}</button>`).join('')}</div>`:'';
+  return `<section class="rome-map" aria-label="${esc(panel.title)} 위치 지도"><div class="map-header"><div><h3>${panel.title}</h3><p>실제 좌표 · 북쪽이 위 · 번호와 시간표 연결</p></div>${toggles}</div><div class="map-scroll"><svg xmlns="http://www.w3.org/2000/svg" class="map-svg" viewBox="0 0 1100 620" role="img" aria-label="${esc(panel.title)} 실제 위치와 거리"><title>${esc(panel.title)}</title>${drawing}</svg></div><div class="map-foot"><span>● 일정 장소　<span style="color:#71897e">● 위치 비교·환승 지점</span></span><span>눈금은 직선거리 비교용 · 장소를 누르면 일반 지도에서 열립니다</span></div><div class="map-places">${panel.stops.map(([key,n,time])=>{const p=TRIP_MAP.places[key];return `<div class="map-place-item"><span class="map-number">${n}</span><div><a href="${mapExternal(p)}" target="_blank" rel="noopener">${esc(p.ko)}</a><small>${esc(p.name)}</small><small>${esc(time)}</small></div></div>`;}).join('')}</div><div class="map-note">${panel.note}</div>${routeNotes(panel.id,TRIP_MAP.places)}<div class="map-note">시설 대표 좌표와 주요 도로·강·운하 형상을 표시했습니다. <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors · ODbL</a> · 2026-09-13 조회</div></section>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-trip-focus]');if(b){tripFocus[day]=b.dataset.tripFocus;render();}});

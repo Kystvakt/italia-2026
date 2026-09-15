@@ -1,0 +1,8 @@
+[out:json][timeout:45][bbox:43.758,11.237,43.786,11.273];
+(
+way[highway][name];
+way[waterway=river];
+nwr[natural=water][water=river];
+nwr[name~"Santa Maria|Santa Maria Novella|Santa Maria del Fiore|Signoria|Calzai|Ponte Vecchio|Michelangelo|Mercato Centrale|Profumo|Loggia dei Lanzi|Firenze SMN",i];
+);
+out geom;

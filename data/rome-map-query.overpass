@@ -1,0 +1,10 @@
+[out:json][timeout:35][bbox:41.883,12.447,41.913,12.507];
+(
+  way[highway~"^(primary|secondary|tertiary)$"];
+  way[highway][name~"^(Via del Corso|Via del Tritone|Via Cola di Rienzo|Via della Conciliazione|Borgo Pio|Via di Porta Angelica|Via dei Fori Imperiali|Via Nazionale|Corso Vittorio Emanuele II|Via del Plebiscito|Via IV Novembre|Via del Teatro di Marcello|Via Condotti|Via dei Condotti|Via del Babuino|Via Ottaviano|Via Crescenzio|Via Tomacelli|Ponte Vittorio Emanuele II|Ponte Sant'Angelo|Ponte Umberto I|Ponte Cavour)$"];
+  way[waterway=river][name=Tevere];
+  way[natural=water][water=river];
+  relation[natural=water][water=river];
+  nwr[name~"^(Musei Capitolini|Palazzo dei Conservatori|Piazza del Campidoglio|Piazza Navona|Chiesa di Sant'Ignazio di Loyola|Sant'Ignazio di Loyola|Fontana di Trevi|Galleria Alberto Sordi|Rinascente|la Rinascente|Palazzo Barberini|Galleria Nazionale d'Arte Antica|Basilica di San Pietro|Piazza San Pietro|Piazza del Risorgimento|Passpartout|Castroni|Zara Home|Roma Termini|Colosseo|Pantheon|Castel Sant'Angelo|Piazza di Spagna)$"];
+);
+out geom;

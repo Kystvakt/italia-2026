@@ -1,0 +1,8 @@
+[out:json][timeout:45][bbox:43.704,10.389,43.728,10.410];
+(
+way[highway][name];
+way[waterway=river];
+nwr[natural=water][water=river];
+nwr[name~"Pisa Centrale|Torre di Pisa|Torre pendente|Duomo|Cattedrale|Battistero|Camposanto|Miracoli|Piazza del Duomo",i];
+);
+out geom;

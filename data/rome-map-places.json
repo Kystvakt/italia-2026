@@ -1,0 +1,3167 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-13T08:24:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 623250573,
+  "lat": 41.9029180,
+  "lon": 12.4650941,
+  "tags": {
+    "construction:railway": "station",
+    "name": "San Pietro (Castel S. Angelo)",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 762098474,
+  "lat": 41.9027628,
+  "lon": 12.4654921,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:location": "wheelchair_toilet",
+    "charge": "1 EUR",
+    "check_date": "2024-10-18",
+    "fee": "yes",
+    "female": "yes",
+    "male": "yes",
+    "name": "Castel Sant'Angelo",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1446376555,
+  "lat": 41.9059731,
+  "lon": 12.4594980,
+  "tags": {
+    "bench": "no",
+    "bin": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Crescenzio/Risorgimento",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport": "platform",
+    "ref": "73334",
+    "shelter": "no",
+    "tactile_paving": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1446376556,
+  "lat": 41.9060847,
+  "lon": 12.4593865,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Crescenzio/Risorgimento",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport": "platform",
+    "ref": "71962",
+    "shelter": "yes",
+    "tactile_paving": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2514765569,
+  "lat": 41.9015608,
+  "lon": 12.4566511,
+  "tags": {
+    "artist_name": "Ferrata Workshop",
+    "artwork_type": "statue",
+    "direction": "45",
+    "height": "22",
+    "historic": "memorial",
+    "memorial": "statue",
+    "min_height": "17",
+    "name": "Ignazio di Antiochia",
+    "name:de": "Ignatius von Antiochien",
+    "name:hu": "Antióchiai Szent Ignác",
+    "subject:wikidata": "Q44170",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 2514765608,
+  "lat": 41.9030711,
+  "lon": 12.4575627,
+  "tags": {
+    "artist_name": "Giovanni Maria de Rossi",
+    "artwork_type": "statue",
+    "direction": "202",
+    "height": "22",
+    "historic": "memorial",
+    "memorial": "statue",
+    "min_height": "17",
+    "name": "Ignazio di Loyola",
+    "name:hu": "Loyolai Szent Ignác",
+    "subject:wikidata": "Q44281",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 3056184798,
+  "lat": 41.8994162,
+  "lon": 12.4799738,
+  "tags": {
+    "addr:city": "Roma",
+    "addr:housenumber": "169",
+    "addr:postcode": "00186",
+    "addr:street": "Piazza di Sant'Ignazio",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Da Sabatino - Le Cave di Sant'Ignazio",
+    "toilets:wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4194722890,
+  "lat": 41.9001048,
+  "lon": 12.4667077,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Via del Banco di Santo Spirito",
+    "amenity": "restaurant",
+    "name": "La Fraschetta di Castel Sant Angelo",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4456810690,
+  "lat": 41.9056145,
+  "lon": 12.4579122,
+  "tags": {
+    "addr:street": "Piazza del Risorgimento",
+    "amenity": "cafe",
+    "check_date": "2024-01-31",
+    "name": "Cafe Risorgimento",
+    "phone": "+39 0668802932",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4464465299,
+  "lat": 41.8954968,
+  "lon": 12.4794988,
+  "tags": {
+    "addr:street": "Piazza del Gesù",
+    "name": "Camere di Sant’Ignazio al Collegio del Gesù",
+    "opening_hours": "Mo-Sa 16:00-18:00; Su 10:00-12:00",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5288226122,
+  "lat": 41.9027186,
+  "lon": 12.4847351,
+  "tags": {
+    "addr:city": "Roma",
+    "addr:housenumber": "61",
+    "addr:postcode": "00187",
+    "addr:street": "Via del Tritone",
+    "brand": "La Rinascente",
+    "brand:wikidata": "Q1050061",
+    "name": "La Rinascente",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "shop": "department_store"
+  }
+},
+{
+  "type": "node",
+  "id": 5296473122,
+  "lat": 41.8942691,
+  "lon": 12.4838560,
+  "tags": {
+    "name": "Istituto per la storia del Risorgimento Italiano",
+    "name:en": "Institute for the History of the Italian Risorgimento",
+    "name:hu": "Olasz egység (Risorgimento) történetét kutató intézet",
+    "office": "research"
+  }
+},
+{
+  "type": "node",
+  "id": 5552446180,
+  "lat": 41.9067552,
+  "lon": 12.4565563,
+  "tags": {
+    "addr:city": "Roma",
+    "addr:postcode": "00192",
+    "addr:street": "Via Vespasiano",
+    "amenity": "restaurant",
+    "cuisine": "italian_pizza",
+    "name": "Trapizzino Piazza Risorgimento",
+    "opening_hours": "Mo-Su 11:00-02:00",
+    "phone": "+39 06 94421854",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6499816579,
+  "lat": 41.9030800,
+  "lon": 12.4661811,
+  "tags": {
+    "addr:city": "Roma",
+    "addr:housenumber": "50",
+    "addr:postcode": "00193",
+    "addr:street": "Lungotevere Castello",
+    "email": "dms-rm@cultura.gov.it.it",
+    "fee": "yes",
+    "name": "Museo Nazionale di Castel Sant’Angelo",
+    "name:de": "Engelsburgmuseum",
+    "name:etymology:wikidata": "Q486382",
+    "name:zh": "國立聖天使堡博物館",
+    "opening_hours": "Tu-Su 09:00-19:30; Jan 1 off; May 1 off; Dec 25 off",
+    "phone": "+39 06 6819111",
+    "tourism": "museum",
+    "website": "https://direzionemuseiroma.cultura.gov.it/museo-nazionale-di-castel-santangelo/",
+    "wikidata": "Q55685976",
+    "wikimedia_commons": "Category:Museo nazionale di Castel Sant'Angelo"
+  }
+},
+{
+  "type": "node",
+  "id": 11013764784,
+  "lat": 41.9060456,
+  "lon": 12.4583222,
+  "tags": {
+    "name": "Risorgimento/S. Pietro",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11013764793,
+  "lat": 41.9060828,
+  "lon": 12.4583274,
+  "tags": {
+    "name": "Risorgimento/S. Pietro",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12247720391,
+  "lat": 41.9031750,
+  "lon": 12.4663573,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Caffetteria Ristorante Le Terrazze Castel Sant’Angelo"
+  }
+},
+{
+  "type": "node",
+  "id": 12900570640,
+  "lat": 41.9056228,
+  "lon": 12.4590754,
+  "tags": {
+    "bench": "no",
+    "bin": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Porcari/Risorgimento",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "operator": "ATAC",
+    "public_transport": "platform",
+    "shelter": "no",
+    "tactile_paving": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13006842570,
+  "lat": 41.9061039,
+  "lon": 12.4591076,
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "bus": "yes",
+    "highway": "bus_stop",
+    "lit": "yes",
+    "name": "Crescenzio/Risorgimento",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport": "platform",
+    "ref": "83180",
+    "shelter": "yes",
+    "tactile_paving": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 13147622045,
+  "lat": 41.9029529,
+  "lon": 12.4652575,
+  "tags": {
+    "construction:railway": "station",
+    "name": "San Pietro (Castel S. Angelo)",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13424121569,
+  "lat": 41.9005247,
+  "lon": 12.4665063,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Via del Banco di Santo Spirito",
+    "name": "Castel Sant'Angelo Luxury Rooms & Tour"
+  }
+},
+{
+  "type": "way",
+  "id": 8035487,
+  "center": {
+    "lat": 41.9030762,
+    "lon": 12.4663312
+  },
+  "nodes": [
+    60071946,
+    5730657087,
+    2686698641,
+    2686698614,
+    2686698541,
+    2686698487,
+    2686698470,
+    2686698459,
+    2686698454,
+    60071948,
+    2686698432,
+    2686698430,
+    2686698428,
+    2686698426,
+    308530496,
+    2686698427,
+    2686698429,
+    2686698431,
+    2686698435,
+    1281870722,
+    2686698450,
+    2686698452,
+    2686698458,
+    2686698463,
+    205549359,
+    2686698559,
+    2686698642,
+    1283139957,
+    2686698707,
+    2686698717,
+    210262332,
+    2686698766,
+    2686698774,
+    2686698784,
+    2686698790,
+    308530437,
+    2686698817,
+    2686698821,
+    2686698834,
+    2686698837,
+    32648080,
+    60071951,
+    2686699408,
+    2686699413,
+    2686699422,
+    2686699425,
+    205180043,
+    2686699449,
+    2686699570,
+    2686699607,
+    2686699624,
+    308531214,
+    2686699637,
+    2686699647,
+    205180044,
+    2686699650,
+    2686699651,
+    60071953,
+    2686699653,
+    2686699649,
+    205180046,
+    2686699643,
+    2686699625,
+    2686699600,
+    60071954,
+    2297670781,
+    2686699514,
+    2126570458,
+    60071955,
+    2686699603,
+    2686699616,
+    205181446,
+    2686699632,
+    2686699638,
+    60071956,
+    2686699635,
+    2686699634,
+    205179311,
+    2686699618,
+    60071957,
+    2686699601,
+    2686699545,
+    259652646,
+    259652647,
+    2686699442,
+    2686699423,
+    205181569,
+    2686699388,
+    2686699382,
+    2686699367,
+    60071958,
+    8198964216,
+    60071959,
+    2686698789,
+    2686698785,
+    471641496,
+    2686698733,
+    2686698722,
+    205181148,
+    2686698461,
+    2686698455,
+    250552883,
+    471641500,
+    2686698424,
+    2686698421,
+    471641499,
+    2686698412,
+    2686698411,
+    60071961,
+    2686698415,
+    2686698417,
+    471641498,
+    2686698433,
+    2686698445,
+    60071946
+  ],
+  "tags": {
+    "alt_name": "Mausoleo di Adriano",
+    "alt_name:cs": "Hadriánovo mauzoleum",
+    "alt_name:de": "Mausoleum des Hadrian",
+    "alt_name:en": "Mausoleum of Hadrian",
+    "alt_name:es": "Mausoleo de Adriano",
+    "alt_name:it": "Mausoleo di Adriano",
+    "building": "yes",
+    "building:part": "no",
+    "castle_type": "fortress",
+    "charge": "16 EUR",
+    "fee": "yes",
+    "heritage": "1",
+    "heritage:since": "1980",
+    "heritage:url": "https://whc.unesco.org/en/list/91",
+    "historic": "castle",
+    "name": "Castel Sant’Angelo",
+    "name:ar": "قلعة سانت أنجلو",
+    "name:cs": "Andělský hrad",
+    "name:de": "Engelsburg",
+    "name:en": "Castle of the Holy Angel",
+    "name:es": "Castillo de Sant'Angelo",
+    "name:etymology:wikidata": "Q45581",
+    "name:fr": "Château Saint-Ange",
+    "name:hi": "पवित्र परी का महल",
+    "name:hu": "Angyalvár",
+    "name:it": "Castel Sant’Angelo",
+    "name:ja": "サンタンジェロ城",
+    "name:ko": "성천사성",
+    "name:nl": "Engelenburcht",
+    "name:pt": "Castelo de Santo Ângelo",
+    "name:ro": "Castelul Sant'Angelo",
+    "name:ru": "Замок Святого Ангела",
+    "name:sl": "Angelski grad",
+    "name:tr": "Sant'Angelo Kalesi",
+    "opening_hours": "Mo-Su 09:00-19:30",
+    "ref:whc": "91",
+    "source": "Bing Aerial",
+    "start_date": "139",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q486382",
+    "wikimedia_commons": "Category:Castel Sant'Angelo (Rome)",
+    "wikipedia": "it:Castel Sant'Angelo"
+  }
+},
+{
+  "type": "way",
+  "id": 22716413,
+  "center": {
+    "lat": 41.9062342,
+    "lon": 12.4572128
+  },
+  "nodes": [
+    12243735773,
+    12882386477,
+    12243735776,
+    261843201,
+    1260960328,
+    12243735766,
+    12243735767,
+    243640298,
+    12243735768,
+    12243735770,
+    12243735769,
+    1627477893,
+    12882386446
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 23840659,
+  "center": {
+    "lat": 41.8988027,
+    "lon": 12.4797833
+  },
+  "nodes": [
+    665918462,
+    1439826701,
+    258346405,
+    1340656207,
+    3741947018,
+    258346403,
+    9051622155,
+    258346404,
+    1439826962,
+    1439826900,
+    1439826788,
+    1439826784,
+    1439826772,
+    1439826737,
+    258346406,
+    1439826717,
+    1439826707,
+    758357629,
+    1439826698,
+    1439826692,
+    1439826685,
+    1439826681,
+    665919592,
+    1439826680,
+    1439826684,
+    1439826686,
+    1439826695,
+    665918462
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2023-08-28",
+    "contact:website": "https://santignazio.gesuiti.it/",
+    "denomination": "roman_catholic",
+    "name": "Sant'Ignazio di Loyola a Campo Marzio",
+    "name:en": "Church of St. Ignatius of Loyola at Campus Martius",
+    "name:es": "Iglesia de San Ignacio de Loyola",
+    "name:fr": "Église Saint-Ignace-de-Loyola",
+    "name:la": "Ecclesia Sancti Ignatii a Loyola in Campo Martio",
+    "opening_hours": "Mo-Sa 07:30-19:00; Su 11:30-18:00",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q1465674",
+    "wikimedia_commons": "Category:Sant'Ignazio (Rome)",
+    "wikipedia": "it:Chiesa di Sant'Ignazio di Loyola in Campo Marzio"
+  }
+},
+{
+  "type": "way",
+  "id": 25610749,
+  "center": {
+    "lat": 41.8987741,
+    "lon": 12.4794642
+  },
+  "nodes": [
+    32631118,
+    315150303,
+    1439826678
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "lit": "yes",
+    "name": "Via di Sant'Ignazio",
+    "oneway": "yes",
+    "service": "alley",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 28677749,
+  "center": {
+    "lat": 41.8992275,
+    "lon": 12.4799035
+  },
+  "nodes": [
+    309298966,
+    1421279838
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Piazza San Ignazio",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 98147045,
+  "center": {
+    "lat": 41.9061578,
+    "lon": 12.4577853
+  },
+  "nodes": [
+    12171901871,
+    12407658503,
+    12243735772,
+    12882386462
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 121403188,
+  "center": {
+    "lat": 41.9059060,
+    "lon": 12.4589060
+  },
+  "nodes": [
+    83656610,
+    243640367
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "is_in:city": "Roma",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "oneway": "yes",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 121403192,
+  "center": {
+    "lat": 41.9059680,
+    "lon": 12.4572856
+  },
+  "nodes": [
+    12243735773,
+    12882386478,
+    309785228,
+    6204385126,
+    1521835403,
+    13037963917
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "is_in:city": "Roma",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 121812417,
+  "center": {
+    "lat": 41.9062573,
+    "lon": 12.4589613
+  },
+  "nodes": [
+    83656610,
+    130663005
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "is_in:city": "Roma",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 122229672,
+  "center": {
+    "lat": 41.9065212,
+    "lon": 12.4575734
+  },
+  "nodes": [
+    153566534,
+    8623805618,
+    4708754350,
+    12407619241
+  ],
+  "tags": {
+    "highway": "secondary",
+    "is_in:city": "Roma",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 122599931,
+  "center": {
+    "lat": 41.9060274,
+    "lon": 12.4582860
+  },
+  "nodes": [
+    12171901871,
+    309786114,
+    243640297,
+    13002191488,
+    12366079042,
+    12366079043,
+    12366079041,
+    1260960338,
+    11998220200,
+    12366079031,
+    8285300263,
+    1260960331,
+    12523844010,
+    12523844009,
+    12523844008
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 124199244,
+  "center": {
+    "lat": 41.9057376,
+    "lon": 12.4582925
+  },
+  "nodes": [
+    130608982,
+    243640498,
+    12243735778,
+    12243735779,
+    243640497,
+    12523844008,
+    12366079030
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "is_in:city": "Roma",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 128648684,
+  "center": {
+    "lat": 41.9064660,
+    "lon": 12.4584539
+  },
+  "nodes": [
+    130663005,
+    6267765348,
+    11013764761,
+    1477811359,
+    309786461
+  ],
+  "tags": {
+    "highway": "secondary",
+    "is_in:city": "Roma",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 128665308,
+  "center": {
+    "lat": 41.8992057,
+    "lon": 12.4797096
+  },
+  "nodes": [
+    1421279838,
+    309298967
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Piazza San Ignazio",
+    "oneway": "yes",
+    "surface": "sett",
+    "wikidata": "Q1120890",
+    "wikipedia": "it:Piazza Sant'Ignazio"
+  }
+},
+{
+  "type": "way",
+  "id": 128665348,
+  "center": {
+    "lat": 41.8993399,
+    "lon": 12.4798437
+  },
+  "nodes": [
+    666940850,
+    666940849,
+    1439827035,
+    1439827014,
+    1421279838
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza San Ignazio",
+    "surface": "sett",
+    "wikidata": "Q1120890",
+    "wikipedia": "it:Piazza Sant'Ignazio"
+  }
+},
+{
+  "type": "way",
+  "id": 130807527,
+  "center": {
+    "lat": 41.8991769,
+    "lon": 12.4795213
+  },
+  "nodes": [
+    1340656209,
+    309298967
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "lit": "yes",
+    "name": "Piazza San Ignazio",
+    "surface": "sett",
+    "wikidata": "Q1120890",
+    "wikipedia": "it:Piazza Sant'Ignazio"
+  }
+},
+{
+  "type": "way",
+  "id": 130807531,
+  "center": {
+    "lat": 41.8993298,
+    "lon": 12.4796960
+  },
+  "nodes": [
+    1439827059,
+    14031985695,
+    1439827067,
+    1439827071,
+    1439827075,
+    1439827081,
+    1439827090,
+    1439827078,
+    1439827082,
+    1439827088,
+    1439827092,
+    1439827093,
+    1439827094,
+    1439827103,
+    1439827101,
+    1439827099,
+    1439827084,
+    14031985696,
+    1439827077,
+    1439827100,
+    1439827106,
+    1439827111,
+    1439827116,
+    1439827127,
+    1439827130,
+    1439827132,
+    3689765926,
+    1439827138,
+    1439827142,
+    1439827145,
+    1439827147,
+    1439827148,
+    1439827144,
+    1439827143,
+    6198419603,
+    1439827141,
+    3689766107,
+    6198419604,
+    1439827131,
+    1439827128,
+    1439827112,
+    1439827105,
+    1439827072,
+    1439827031,
+    1439827026,
+    1439827020,
+    1439827017,
+    1439827012,
+    1439827011,
+    1439827000,
+    309298966,
+    258346404,
+    9051622155,
+    258346403,
+    1340656209,
+    1340656212,
+    1439826986,
+    1439826992,
+    1439826996,
+    1439827045,
+    1439827048,
+    1439827053,
+    6198419602,
+    1439827056,
+    1439827065,
+    6198419601,
+    1439827096,
+    6198419600,
+    1439827109,
+    6198419599,
+    1439827114,
+    1439827118,
+    6198419598,
+    1439827122,
+    1439827121,
+    1439827120,
+    6198419597,
+    1439827107,
+    1439827102,
+    1439827091,
+    1439827074,
+    1439827070,
+    1439827063,
+    1439827059
+  ],
+  "tags": {
+    "area": "yes",
+    "foot": "yes",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza di Sant'Ignazio",
+    "place": "square",
+    "surface": "sett",
+    "wikidata": "Q1120890",
+    "wikipedia": "it:Piazza Sant'Ignazio"
+  }
+},
+{
+  "type": "way",
+  "id": 130807540,
+  "center": {
+    "lat": 41.8983569,
+    "lon": 12.4795536
+  },
+  "nodes": [
+    1439826678,
+    1439826657
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "layer": "-1",
+    "maxheight": "default",
+    "name": "Via di Sant'Ignazio",
+    "oneway": "yes",
+    "service": "alley",
+    "surface": "sett",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 130807541,
+  "center": {
+    "lat": 41.8980163,
+    "lon": 12.4796410
+  },
+  "nodes": [
+    1439826657,
+    309297321,
+    2537258888,
+    758357568
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Via di Sant'Ignazio",
+    "oneway": "yes",
+    "service": "alley",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 162037988,
+  "center": {
+    "lat": 41.9064995,
+    "lon": 12.4578674
+  },
+  "nodes": [
+    309786461,
+    153566534
+  ],
+  "tags": {
+    "highway": "secondary",
+    "is_in:city": "Roma",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 210631017,
+  "center": {
+    "lat": 41.9060187,
+    "lon": 12.4584029
+  },
+  "nodes": [
+    2207076355,
+    2207076354
+  ],
+  "tags": {
+    "bench": "yes",
+    "bin": "yes",
+    "name": "Risorgimento/S. Pietro",
+    "operator": "ATAC",
+    "public_transport": "platform",
+    "railway": "platform",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 366692678,
+  "center": {
+    "lat": 41.8993054,
+    "lon": 12.4795352
+  },
+  "nodes": [
+    309298967,
+    1439826999,
+    1439827022,
+    1439827046,
+    309298968
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "highway": "service",
+    "lanes": "1",
+    "lit": "yes",
+    "name": "Piazza San Ignazio",
+    "oneway": "yes",
+    "surface": "sett",
+    "wikidata": "Q1120890",
+    "wikipedia": "it:Piazza Sant'Ignazio"
+  }
+},
+{
+  "type": "way",
+  "id": 1309201458,
+  "center": {
+    "lat": 41.9065227,
+    "lon": 12.4576757
+  },
+  "nodes": [
+    5735233099,
+    13002191486,
+    4708754350,
+    13002131172,
+    13002131171
+  ],
+  "tags": {
+    "button_operated": "yes",
+    "crossing": "traffic_signals",
+    "crossing:island": "no",
+    "crossing:markings": "zebra",
+    "footway": "crossing",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "surface": "paving_stones",
+    "traffic_signals:sound": "walk"
+  }
+},
+{
+  "type": "way",
+  "id": 1323135131,
+  "center": {
+    "lat": 41.9063329,
+    "lon": 12.4566751
+  },
+  "nodes": [
+    1272255765,
+    12076898331,
+    1272255768,
+    8262560632,
+    8262560624,
+    12407648397,
+    1645419650,
+    1272255767
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "oneway": "no",
+    "sidewalk": "right",
+    "sidewalk:right:surface": "paving_stones",
+    "smoothness": "excellent",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1341342192,
+  "center": {
+    "lat": 41.9065555,
+    "lon": 12.4570541
+  },
+  "nodes": [
+    12407619241,
+    2111486638,
+    8262496908,
+    2111486639,
+    8262560637
+  ],
+  "tags": {
+    "highway": "secondary",
+    "is_in:city": "Roma",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1341343898,
+  "center": {
+    "lat": 41.9061642,
+    "lon": 12.4572898
+  },
+  "nodes": [
+    12243735776,
+    12407648398,
+    12407658506,
+    12407658503
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1353475565,
+  "center": {
+    "lat": 41.9064271,
+    "lon": 12.4576661
+  },
+  "nodes": [
+    13002131171,
+    12882386444
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1353475566,
+  "center": {
+    "lat": 41.9063636,
+    "lon": 12.4577225
+  },
+  "nodes": [
+    12882386446,
+    12171901871
+  ],
+  "tags": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 1375329902,
+  "center": {
+    "lat": 41.9064740,
+    "lon": 12.4567587
+  },
+  "nodes": [
+    8262560637,
+    261744055,
+    2111486637,
+    1272255765
+  ],
+  "tags": {
+    "highway": "secondary",
+    "is_in:city": "Roma",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "oneway": "no",
+    "source:maxspeed": "IT:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1391719984,
+  "center": {
+    "lat": 41.9058749,
+    "lon": 12.4578048
+  },
+  "nodes": [
+    12882386462,
+    13037963917,
+    130608982
+  ],
+  "tags": {
+    "crossing:markings": "zebra",
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "smoothness": "good",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1417406898,
+  "center": {
+    "lat": 41.9060644,
+    "lon": 12.4583121
+  },
+  "nodes": [
+    13025384145,
+    13025384146
+  ],
+  "tags": {
+    "name": "Risorgimento/S. Pietro",
+    "public_transport": "platform",
+    "railway": "platform",
+    "surface": "sett",
+    "tram": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1486522410,
+  "center": {
+    "lat": 41.9032180,
+    "lon": 12.4661052
+  },
+  "nodes": [
+    13626951853,
+    13626951854,
+    13626951855,
+    13626951856,
+    13626951893,
+    13626951894,
+    13626951857,
+    13626951858,
+    13626951859,
+    13626951892,
+    13626951860,
+    13626951861,
+    13626951862,
+    13626951863,
+    13626951864,
+    13626951865,
+    13626951866,
+    13626951867,
+    13626951868,
+    13626951869,
+    13626951870,
+    13626951871,
+    13626951872,
+    13626951873,
+    13626951874,
+    13626951875,
+    13626951876,
+    13626951877,
+    13626951878,
+    13626951879,
+    13626951880,
+    13626951881,
+    13626951882,
+    13626951883,
+    13626951884,
+    13626951885,
+    13626951886,
+    13626951887,
+    13626951888,
+    13626951889,
+    13626951890,
+    13626951891,
+    13626951853
+  ],
+  "tags": {
+    "landuse": "construction",
+    "name": "Cantiere stazione Castel S. Angelo / Piazza Pia MC"
+  }
+},
+{
+  "type": "relation",
+  "id": 385217,
+  "center": {
+    "lat": 41.9040932,
+    "lon": 12.5124588
+  },
+  "members": [
+    {
+      "type": "node",
+      "ref": 6267631620,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612887,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 6267631649,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2206896381,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 6267631647,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612899,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 6267631645,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 2206896378,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 6269475614,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612923,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 12420727133,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612919,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 12513140811,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612914,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612921,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 12557230023,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612900,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1733524753,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612906,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 12557230025,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612907,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612912,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612909,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612894,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 11688400889,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 6269475660,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210612903,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628927,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628933,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 610644803,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210628930,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 2207053764,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 121678497,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628942,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628934,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 118614964,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 12860352718,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 118615172,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628937,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628922,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628940,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628939,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628907,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628910,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628925,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628897,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 2207053761,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628903,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 115700802,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210631015,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210631010,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210631013,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 117880438,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210631014,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210628899,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 295394476,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 211157779,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 295811051,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 211157784,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 11013764793,
+      "role": "stop"
+    },
+    {
+      "type": "way",
+      "ref": 210631017,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 1185658354,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 669496345,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 922279938,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 922279936,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 48967756,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 669365685,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 669365676,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 669365669,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185698965,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185676815,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185676814,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185681846,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185681847,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185681843,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1185681842,
+      "role": ""
+    },
+    {
+      "type": "node",
+      "ref": 1673708005,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1224834075,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1420096445,
+      "role": "stop"
+    }
+  ],
+  "tags": {
+    "colour": "#f89c0e",
+    "from": "Gerani",
+    "name": "19 (Risorgimento/San Pietro)",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport:version": "2",
+    "ref": "19",
+    "route": "tram",
+    "to": "Risorgimento/San Pietro",
+    "type": "route",
+    "wikidata": "Q104537271"
+  }
+},
+{
+  "type": "relation",
+  "id": 1662273,
+  "center": {
+    "lat": 41.8955330,
+    "lon": 12.4996787
+  },
+  "members": [
+    {
+      "type": "node",
+      "ref": 1733524721,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836641,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836612,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836613,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836614,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612912,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612909,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 210612894,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 13006842571,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 458041313,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1351261446,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 3621998962,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 10285177112,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 9221179417,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 999586074,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1224078551,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836620,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836626,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1421083045,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1421083047,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1730948976,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1690151032,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836599,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1468207571,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 574832971,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1771391520,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1141104520,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1626177423,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 828290460,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1468207593,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1626177410,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1420096519,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1328395494,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1334480798,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836630,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 1739836607,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 13006842570,
+      "role": "platform"
+    },
+    {
+      "type": "way",
+      "ref": 350057076,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 350057067,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 350057073,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 76376017,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 141760481,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 137153051,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 128648692,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 137153049,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 203757614,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 132007424,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 133474382,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1372381845,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 122157091,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 122157083,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 189271267,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 189271266,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 44627124,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 44627122,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 32505270,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1152741563,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22889406,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1317153981,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1317153980,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1317153978,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 24162332,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22889376,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 367163866,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 243707321,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 119237142,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 202485853,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 216601409,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1304583629,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1215887838,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 161376211,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 171462538,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 33600913,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 27628159,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1175283404,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 33600912,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 33600914,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22878456,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 24648440,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 222401992,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 128648706,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 128648691,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 154747056,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 163807015,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 124046212,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 200347641,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22885425,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22878472,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 124046208,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 120513793,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 123981329,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 122185751,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22885424,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 107257937,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 107257942,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 107258328,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 107258331,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 106129551,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 25695921,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 106129575,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 95644996,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22890482,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 234796856,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 129115593,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 201007334,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 121548976,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 23591645,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 201007332,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 11353963,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22979044,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 180216929,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 103775344,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 11353959,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 4949503,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1208915578,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 346995426,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 103775341,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1553845635,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 190952258,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22908183,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1553845636,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22908189,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 124643435,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 143488752,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 106205317,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 106205316,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 10140730,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 82201173,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 123971346,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 124053212,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 167782408,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 167782412,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 116237739,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 147124638,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 147125121,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 202550146,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 125151692,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 303405560,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1393890966,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 10140484,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 22979121,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 48520537,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 107293136,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 48520536,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 122109226,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 31875197,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 28159703,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1297716852,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 36779753,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1393133776,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 125566953,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 99368264,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 4949723,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 122157081,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 48520540,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 48559215,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 203984756,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 128665303,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 28159318,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 60616318,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 236815953,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 236815954,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 203181632,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 50807562,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 187776458,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 4245348,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1297716858,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 116260698,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 92559300,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 108566786,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 220274293,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52577432,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 52577377,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 128648683,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 220274291,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1392219483,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 187776459,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 25752412,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 25752430,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 19735692,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 202490543,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 202490542,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 28092462,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 307158170,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 144910639,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 193337804,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 239522197,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 164855410,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 454016114,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 144910640,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 219333177,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709097,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709101,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 15446541,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709099,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709090,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 218720705,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 144912413,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 144912414,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709895,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709096,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 118709892,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 10141263,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 1206916288,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 121455911,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "bus": "urban",
+    "colour": "#0c69bf",
+    "from": "Malatesta (MC)",
+    "name": "81 (Crescenzio/Risorgimento)",
+    "network": "ATAC",
+    "network:wikidata": "Q530087",
+    "network:wikipedia": "it:ATAC",
+    "operator": "ATAC",
+    "public_transport:version": "2",
+    "ref": "81",
+    "route": "bus",
+    "to": "Crescenzio/Risorgimento",
+    "type": "route"
+  }
+},
+{
+  "type": "relation",
+  "id": 1849831,
+  "center": {
+    "lat": 41.8939760,
+    "lon": 12.4836361
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 137278755,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 111539862,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 137278966,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "building": "public",
+    "height": "45",
+    "name": "Museo Centrale del Risorgimento",
+    "name:de": "Hauptmuseum des Risorgimento",
+    "name:hu": "Olasz Egység (Risorgimento) Központi Múzeuma",
+    "tourism": "museum",
+    "type": "multipolygon",
+    "website": "https://www.risorgimento.it/php/page_gen.php?id_sezione=5",
+    "wikidata": "Q3867752",
+    "wikipedia": "it:Museo centrale del Risorgimento al Vittoriano"
+  }
+},
+{
+  "type": "relation",
+  "id": 2826027,
+  "center": {
+    "lat": 41.9060426,
+    "lon": 12.4584029
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 210631017,
+      "role": "platform"
+    },
+    {
+      "type": "node",
+      "ref": 11013764784,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 11013764793,
+      "role": "stop"
+    },
+    {
+      "type": "node",
+      "ref": 1393009534,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "name": "Risorgimento/S. Pietro",
+    "public_transport": "stop_area",
+    "type": "public_transport",
+    "wikidata": "Q114129049"
+  }
+},
+{
+  "type": "relation",
+  "id": 9202561,
+  "center": {
+    "lat": 41.9060880,
+    "lon": 12.4577684
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 24165375,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1346768108,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 662016925,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 662016926,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 662016923,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 168597192,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "highway": "pedestrian",
+    "lit": "yes",
+    "name": "Piazza del Risorgimento",
+    "name:etymology:wikidata": "Q51122",
+    "place": "square",
+    "surface": "paving_stones",
+    "type": "multipolygon",
+    "wikidata": "Q98897827"
+  }
+},
+{
+  "type": "relation",
+  "id": 16054538,
+  "center": {
+    "lat": 41.8150760,
+    "lon": 12.2507614
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1187219968,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219967,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219970,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219966,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219964,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219962,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219963,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187219980,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 22883270,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1207615073,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 393566497,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 393568251,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1187213016,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 393568250,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1207615068,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "Fiumicino",
+    "addr:postcode": "00054",
+    "addr:street": "Via Leonardo da Vinci",
+    "aerodrome": "international",
+    "aerodrome:type": "public",
+    "aeroway": "aerodrome",
+    "city_served": "Rome",
+    "ele": "5",
+    "email": "aeroportidiroma@adr.it",
+    "iata": "FCO",
+    "icao": "LIRF",
+    "local_ref": "RM11",
+    "name": "Aeroporto di Roma-Fiumicino",
+    "name:ar": "مطار روما-فيوميتشينو",
+    "name:de": "Flughafen Rom-Fiumicino",
+    "name:en": "Rome–Fiumicino Airport",
+    "name:es": "Aeropuerto de Roma-Fiumicino",
+    "name:fa": "فرودگاه رم-فیومیچینو",
+    "name:it": "Aeroporto di Roma-Fiumicino",
+    "name:ko": "레오나르도다빈치 피우미치노공항",
+    "name:ru": "Аэропорт Рим — Фьюмичино",
+    "official_name": "Aeroporto Internazionale Leonardo da Vinci di Rome-Fiumicino",
+    "official_name:it": "Aeroporto Internazionale Leonardo da Vinci",
+    "official_name:ru": "Международный аэропорт Рим — Фьюмичино имени Леонардо да Винчи",
+    "operator": "Aeroporti di Roma S.p.A.",
+    "passengers": "36337523",
+    "phone": "+390665951",
+    "short_operator": "ADR",
+    "source": "wikipedia",
+    "start_date": "1960",
+    "type": "multipolygon",
+    "website": "https://www.adr.it/fiumicino",
+    "wikidata": "Q19101",
+    "wikimedia_commons": "Category:Fiumicino Airport",
+    "wikipedia": "it:Aeroporto di Roma-Fiumicino"
+  }
+}
+
+  ]
+}

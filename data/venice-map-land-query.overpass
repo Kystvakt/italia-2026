@@ -1,0 +1,6 @@
+[out:json][timeout:60];
+(
+nwr[place=island](45.420,12.300,45.525,12.375);
+way[aeroway=terminal](45.490,12.320,45.520,12.365);
+);
+out geom;

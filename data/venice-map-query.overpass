@@ -1,0 +1,11 @@
+[out:json][timeout:60];
+(
+way[highway][name](45.427,12.312,45.446,12.347);
+way[waterway](45.427,12.312,45.446,12.347);
+way[natural=water](45.427,12.312,45.446,12.347);
+relation[natural=water][water=canal](45.427,12.312,45.446,12.347);
+way[natural=coastline](45.425,12.305,45.45,12.353);
+nwr[name~"Venezia Santa Lucia|Venezia Santa Lu|Venezia S. Lucia|Piazza San Marco|Basilica di San Marco|Palazzo Ducale|Ponte di Rialto|Piazzale Roma|Vallaresso|Rialto|Ferrovia",i](45.427,12.312,45.446,12.347);
+nwr[aeroway=aerodrome](45.49,12.30,45.52,12.36);
+);
+out geom;
