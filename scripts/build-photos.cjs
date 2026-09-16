@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const root=path.join(__dirname,'..'),htmlPath=path.join(root,'docs/index.html');
+const photos=JSON.parse(fs.readFileSync(path.join(root,'data/place-photos.json'),'utf8'));
+const script='/* PHOTOS_START */\nconst PLACE_PHOTOS='+JSON.stringify(photos)+';\n'+fs.readFileSync(path.join(root,'src/photos-runtime.js'),'utf8')+'/* PHOTOS_END */';
+const style='/* PHOTO_STYLE_START */\n'+fs.readFileSync(path.join(root,'src/photos-style.css'),'utf8')+'/* PHOTO_STYLE_END */';
+let html=fs.readFileSync(htmlPath,'utf8');
+html=html.includes('/* PHOTOS_START */')?html.replace(/\/\* PHOTOS_START \*\/[\s\S]*?\/\* PHOTOS_END \*\//,()=>script):html.replace('let city=0,day=1;',script+'\nlet city=0,day=1;');
+html=html.includes('/* PHOTO_STYLE_START */')?html.replace(/\/\* PHOTO_STYLE_START \*\/[\s\S]*?\/\* PHOTO_STYLE_END \*\//,()=>style):html.replace('</style>',style+'\n</style>');
+html=html.replace('<p>${e[2]}</p></div></div>','<p>${e[2]}</p>${renderEventPhoto(e)}</div></div>');
+fs.writeFileSync(htmlPath,html.replace(/\r\n/g,'\n'));
+console.log('Photo assets and credits embedded in HTML.');
