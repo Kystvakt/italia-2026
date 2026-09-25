@@ -42,7 +42,7 @@ let html=fs.readFileSync(projectPath('docs', 'index.html'),'utf8');
 const routeBlock='/* MAP_ROUTES_START */\n'+fs.readFileSync(projectPath('src', 'map-routes-runtime.js'),'utf8')+'\n/* MAP_ROUTES_END */';
 if(html.includes('/* MAP_ROUTES_START */'))html=html.replace(/\/\* MAP_ROUTES_START \*\/[\s\S]*?\/\* MAP_ROUTES_END \*\//,()=>routeBlock);
 else html=html.replace('/* ROME_MAP_START */',routeBlock+'\n/* ROME_MAP_START */');
-const block='/* TRIP_MAP_START */\nconst TRIP_MAP='+JSON.stringify({places,maps})+';\n'+fs.readFileSync(projectPath('src', 'trip-map-runtime.js'),'utf8')+'\n/* TRIP_MAP_END */';
+const block='/* TRIP_MAP_START */\nconst TRIP_MAP='+JSON.stringify({places,maps,overview:JSON.parse(fs.readFileSync(projectPath('data','venice-overview-background.json'),'utf8'))})+';\n'+fs.readFileSync(projectPath('src', 'trip-map-runtime.js'),'utf8')+'\n/* TRIP_MAP_END */';
 if(html.includes('/* TRIP_MAP_START */'))html=html.replace(/\/\* TRIP_MAP_START \*\/[\s\S]*?\/\* TRIP_MAP_END \*\//,()=>block);
 else html=html.replace('let city=0,day=1;',block+'\nlet city=0,day=1;');
 html=html.replace("${city===0?renderRomeMap(day):''}","${city===0?renderRomeMap(day):renderTripMap(day)}");
